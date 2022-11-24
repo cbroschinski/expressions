@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup, find_packages
 
-requirements = ['grako>=3.9.3']
+requirements = ["grako @ git+ssh://git@github.com/cbroschinski/grako.git"]
 
 setup(
     name = "expressions",
